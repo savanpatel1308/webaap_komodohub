@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOMODOHUB</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/c1b8fdcc5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Add these buttons where you want users to click to navigate to login or signup -->
+<div id="login" class="auth-section">
+    <button onclick="goToLogin()" class="btn btn3">Login</button>
+</div>
+<div id="signup" class="auth-section">
+    <button onclick="goToSignup()" class="btn btn3">Sign Up</button>
+</div>
 
+
+
+<!-- --------------------------login---------------------- -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Screenshot 2023-11-16 233358.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Courses</a></li>
+                <li><a href="#portfolio">Game</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Jawan rahinos</p>
+            <h3>Hi, Welcome To <br> <span>KOMODOHUB</span> School</h3>
+        </div>
+    </div>
+</div>
+<!-- ----------------about school-------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/istockphoto-1295039680-612x612.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About School</h1>
+                <p>
+                    The school is dedicated to nurturing a generation of conservation champions by incorporating the Javan rhinoceros and other endangered species into its curriculum. Through engaging educational materials, students learn about these incredible creatures' habitat, behavior, and conservation challenges. Interactive games, puzzles, and activities make learning about endangered species fun and memorable, sparking curiosity and empathy among the children. By integrating these lessons into various subjects, the school fosters a deeper understanding of the importance of preserving biodiversity. Students not only gain knowledge but also actively participate in games and projects that promote awareness and support conservation efforts for endangered species like the Javan rhinoceros.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('teaching excellence')">Teaching excellence</p>
+                    <p class="tab-links" onclick="opentab('assesment')">Assesment</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Learning materials</span><br>by putting videos</li>
+                        <li><span>Web Development</span><br>Web aap Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="teaching excellence">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web aap Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="assesment">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web aap Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------services-------  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p>something to write</p>
+                <a href="https://www.worldwildlife.org/initiatives/wildlife-conservation">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX design</h2>
+                <p>something to write</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-tape"></i>
+                <h2>App design</h2>
+                <p>something to write</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Screenshot 2023-11-16 223657.png" >
+                <div class="layer">
+                    <h3>Animals Conservation</h3>
+                    <p>The Web Aap help you to get aware about the 
+                        endangered species.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2023-11-16 223609.png" >
+                <div class="layer">
+                    <h3>Save Animals</h3>
+                    <p>The Web Aap help you to get aware about the 
+                        endangered species.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2023-11-16 223948.png" >
+                <div class="layer">
+                    <h3>Endangered Species</h3>
+                    <p>The Web Aap help you to get aware about the 
+                        endangered species.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- -------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>savanpatel7914@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>07767903611</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Reume_Savanp.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Savan. Made <i class="fa-solid fa-heart"></i> by Savan Patel </p>
+    </div>
+</div>
+
+
+<script>
+    // JavaScript code
+function goToLogin() {
+    document.getElementById('login').style.display = 'block';
+    document.getElementById('signup').style.display = 'none';
+}
+
+function goToSignup() {
+    document.getElementById('signup').style.display = 'block';
+    document.getElementById('login').style.display = 'none';
+}
+
+</script>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
