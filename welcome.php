@@ -104,7 +104,7 @@
 <!-- ---------------services-------  -->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">My Courses</h1>
         <div class="services-list">
             <div>
                 <i class="fa-solid fa-code"></i>
@@ -135,9 +135,8 @@
             <div class="work">
                 <img src="images/img5.jpeg" >
                 <div class="layer">
-                    <h3>Wildlife Rescue</h3>
-                    <p>A virtual game where players act as wildlife rescuers. They encountering endangered species in need of help.
-                         Players learn about the species, their habitats, and the challenges they face while trying to rescue and rehabilitate them.</p>
+                    <h4>Wildlife Rescue</h4>
+                    <p></p>
                     <a href="https://play.google.com/store/apps/details?id=com.xstudios.wildliferescue&pcampaignid=web_share"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
 
@@ -145,17 +144,16 @@
             <div class="work">
                 <img src="images/img6.jpeg" >
                 <div class="layer">
-                    <h3>Endangered Species</h3>
-                    <p>An interactive game where children embark on a quest to save endangered animals. They solve puzzles, complete challenges, and make decisions that impact the survival of virtual endangered species.</p>
+                    <h4>Endangered Species</h4>
+                    <p></p>
                     <a href="https://play.google.com/store/apps/details?id=cg.polytechbrazza.endangeredspecies&pcampaignid=web_share"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="images/img7.jpeg" >
                 <div class="layer">
-                    <h3>Idle Zoo Tycoon 3D - Animal Pa</h3>
-                    <p>This simulation game allows kids to manage a virtual wildlife sanctuary or conservation center.
-                         Players learn about different endangered species, their needs, and conservation efforts required to protect them.</p>
+                    <h4>Idle Zoo Tycoon 3D - Animal Pa</h4>
+                    <p></p>
                     <a href="https://play.google.com/store/apps/details?id=com.idlezoo.game&pcampaignid=web_share"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
